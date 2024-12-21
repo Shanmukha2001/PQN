@@ -1,0 +1,14 @@
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+
+# Ignore environment files
+.env
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore assets
+.assets/
+# Ignore virtual environment
+env/
