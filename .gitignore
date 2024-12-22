@@ -1,14 +1,49 @@
+# Ignore conda environment directories
+env/
+*.yml
+
 # Ignore Python bytecode files
+__pycache__/
 *.pyc
 *.pyo
 
-# Ignore environment files
-.env
-
-# Ignore Jupyter checkpoints
+# Ignore Jupyter notebook checkpoints
 .ipynb_checkpoints/
 
-# Ignore assets
-.assets/
-# Ignore virtual environment
-env/
+# Ignore pipenv and poetry lock files
+Pipfile.lock
+poetry.lock
+
+# Ignore conda package files
+*.tar.bz2
+
+# Ignore logs and other temporary files
+*.log
+*.tmp
+
+# Ignore IDE/editor files (e.g., VSCode, PyCharm)
+.vscode/
+.idea/
+
+# Ignore git objects and other files created by git
+.git/
+
+# Ignore large binary files (add file extensions or paths as needed)
+*.png
+*.jpg
+*.jpeg
+*.so
+*.dylib
+*.a
+*.lib
+*.dll
+
+# Ignore specific large files from being pushed
+*.sh
+*.zip
+*.tar.gz
+*.rar
+
+# If you don't want to push any file related to your specific training directory:
+algorithmic\ training\ conda/
+
